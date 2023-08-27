@@ -1,5 +1,7 @@
 ---
 import MainHead from './MainHead.astro';
+import { ThemeProvider } from "@/components/theme-provider"
+import '../styles/global.css';
 
 interface Props {
   title?: string;
@@ -12,6 +14,8 @@ const { title = 'My Astro Blog', description = 'My musings about the Astro frame
 <html lang="en">
   <MainHead {title} {description}/>
 	<body>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 		<slot>Default Text</slot>
+    </ThemeProvider>
 	</body>
 </html>
