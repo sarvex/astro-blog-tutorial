@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.3.2
     version: 2.3.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
   '@astrojs/tailwind':
-    specifier: ^4.0.0
-    version: 4.0.0(astro@3.0.2)(tailwindcss@3.3.3)
+    specifier: ^5.0.0
+    version: 5.0.0(astro@3.0.2)(tailwindcss@3.3.3)
   '@radix-ui/react-dropdown-menu':
     specifier: ^2.0.5
     version: 2.0.5(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
@@ -136,10 +136,10 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/tailwind@4.0.0(astro@3.0.2)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-HmCAXFFes7MUBt5ihdfH1goa8QyGkHejIpz6Z4XBKK9VNYY9G2E3brCn8+pNn5zAOzcwl3FYcuH2AiOa/NGoMQ==}
+  /@astrojs/tailwind@5.0.0(astro@3.0.2)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-bMZZNNm/SW+ijUKMQDhdiuNWDdR3CubEKUHb2Ran4Arx1ikWn/kKIkFDXUV+MUnsLa7s19x9VMRlARRyKbqMkQ==}
     peerDependencies:
-      astro: ^2.6.5
+      astro: ^3.0.0
       tailwindcss: ^3.0.24
     dependencies:
       astro: 3.0.2
