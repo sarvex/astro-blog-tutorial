@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^2.3.2",
+    "@astrojs/react": "^3.0.0",
     "@astrojs/tailwind": "^5.0.0",
     "@radix-ui/react-dropdown-menu": "^2.0.5",
     "@radix-ui/react-slot": "^1.0.2",
