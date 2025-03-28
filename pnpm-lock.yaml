@@ -28,7 +28,7 @@ dependencies:
     version: 4.0.3
   class-variance-authority:
     specifier: ^0.7.0
-    version: 0.7.0
+    version: 0.7.1
   clsx:
     specifier: ^2.0.0
     version: 2.1.1
@@ -2337,10 +2337,10 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /class-variance-authority@0.7.0:
-    resolution: {integrity: sha512-jFI8IQw4hczaL4ALINxqLEXQbWcNjoSkloa4IaufXCJr6QawJyw7tuRysRsrE8w2p/4gGaxKIt/hX3qz/IbD1A==}
+  /class-variance-authority@0.7.1:
+    resolution: {integrity: sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==}
     dependencies:
-      clsx: 2.0.0
+      clsx: 2.1.1
     dev: false
 
   /cli-boxes@3.0.0:
