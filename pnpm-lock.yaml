@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^3.0.2
     version: 3.5.3
   prettier-plugin-astro:
-    specifier: ^0.12.0
-    version: 0.12.0
+    specifier: ^0.14.0
+    version: 0.14.1
 
 packages:
 
@@ -74,13 +74,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: false
 
-  /@astrojs/compiler@1.8.2:
-    resolution: {integrity: sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==}
-    dev: true
-
   /@astrojs/compiler@2.11.0:
     resolution: {integrity: sha512-zZOO7i+JhojO8qmlyR/URui6LyfHJY6m+L9nwyX5GiKD78YoRaZ5tzz6X0fkl+5bD3uwlDHayf6Oe8Fu36RKNg==}
-    dev: false
 
   /@astrojs/internal-helpers@0.6.1:
     resolution: {integrity: sha512-l5Pqf6uZu31aG+3Lv8nl/3s4DbUzdlxTWDof4pEpto6GUJNhhCbelVi9dEyurOVyqaelwmS9oSyOWOENSfgo9A==}
@@ -3338,11 +3333,11 @@ packages:
       source-map-js: 1.2.1
     dev: false
 
-  /prettier-plugin-astro@0.12.0:
-    resolution: {integrity: sha512-8E+9YQR6/5CPZJs8XsfBw579zrwZkc0Wb7x0fRVm/51JC8Iys4lBw4ecV8fHwpbQnzve86TUa4fJ08BJzqfWnA==}
+  /prettier-plugin-astro@0.14.1:
+    resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
-      '@astrojs/compiler': 1.8.2
+      '@astrojs/compiler': 2.11.0
       prettier: 3.5.3
       sass-formatter: 0.7.7
     dev: true
